@@ -1,0 +1,8 @@
+!.gitkeep
+.idea
+.DS_Store
+.cache
+package-lock.json
+node_modules
+Gemfile.lock
+.env
