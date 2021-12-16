@@ -1,5 +1,5 @@
 # Latency Benchmark PHP vs NodeJS
-> __TL;DR__ NodeJS is better for CPU-easy operations and has more consistent latency overall. For CPU-intensive operations, there is no clear winner - NodeJS again has more consistent latency, but loses out significantly from P99 onwards.
+> __TL;DR__ NodeJS is better for CPU-easy operations. For CPU-intensive operations, there is no clear winner - NodeJS has more consistent latency, but loses out significantly from P99 onwards.
 
 The following measurement shows the latency of PHP and NodeJS on a basic VPS from Linode. In the measurement I included operations that I needed in my API, namely: simple regex on long text, bulky JSON and working with MySQL.
 

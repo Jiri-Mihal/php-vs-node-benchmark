@@ -1,5 +1,5 @@
 # Srovnávací test latence PHP vs NodeJS
-> __TL;DR__ NodeJS je lepší pro operace nenáročné na CPU a celkově má více konzistetní latenci. Pro CPU intezivní operace není jednoznačný vítěz – NodeJS má opět více konzistetní latenci, ale výrazně ztrácí již od P99.
+> __TL;DR__ NodeJS je lepší pro operace nenáročné na CPU. Pro CPU intezivní operace není jednoznačný vítěz – NodeJS má více konzistetní latenci, ale výrazně ztrácí již od P99.
 
 Následující měření ukazuje latenci PHP a NodeJS na základní VPS od Linode. Do měření jsem zahrnul operace, které jsem potřeboval v připravovaném API, konkrétně: jednoduchý regex na dlouhém textu, objemný JSON a práci s MySQL.
 
